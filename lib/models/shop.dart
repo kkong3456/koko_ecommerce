@@ -9,21 +9,25 @@ class Shop extends ChangeNotifier {
       price: 10,
       description: 'Product 1 description Lorem ipsum dolor sit amet,'
           'consectetur adipiscing elit, sed do eiusmod tempor',
+      imagePath:'assets/image1.jpg'
     ),
     Product(
       name: 'Product 2',
       price: 20,
       description: 'Product 2 description',
+      imagePath:'assets/image2.jpg',
     ),
     Product(
       name: 'Product 3',
       price: 30,
       description: 'Product 3 description',
+      imagePath:'assets/image3.jpg'
     ),
     Product(
       name: 'Product 4',
       price: 40,
       description: 'Product 4 description',
+      imagePath:'assets/image4.jpg'
     ),
   ];
   //user cart
